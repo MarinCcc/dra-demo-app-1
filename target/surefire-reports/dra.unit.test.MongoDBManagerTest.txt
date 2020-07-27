@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: dra.unit.test.MongoDBManagerTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.018 sec <<< FAILURE!
-testCollection(dra.unit.test.MongoDBManagerTest)  Time elapsed: 0.014 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.126 sec <<< FAILURE!
+testCollection(dra.unit.test.MongoDBManagerTest)  Time elapsed: 1.122 sec  <<< ERROR!
 com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='<insert your ID>', source='admin', password=<hidden>, mechanismProperties=<hidden>}
 	at com.mongodb.internal.connection.SaslAuthenticator.wrapException(SaslAuthenticator.java:201)
 	at com.mongodb.internal.connection.SaslAuthenticator.access$300(SaslAuthenticator.java:40)
@@ -66,7 +66,7 @@ Caused by: com.mongodb.MongoCommandException: Command failed with error 8000 (At
 	at com.mongodb.internal.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:54)
 	... 48 more
 
-testCreateRead(dra.unit.test.MongoDBManagerTest)  Time elapsed: 0.002 sec  <<< ERROR!
+testCreateRead(dra.unit.test.MongoDBManagerTest)  Time elapsed: 0.003 sec  <<< ERROR!
 com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='<insert your ID>', source='admin', password=<hidden>, mechanismProperties=<hidden>}
 	at com.mongodb.internal.connection.SaslAuthenticator.wrapException(SaslAuthenticator.java:201)
 	at com.mongodb.internal.connection.SaslAuthenticator.access$300(SaslAuthenticator.java:40)
