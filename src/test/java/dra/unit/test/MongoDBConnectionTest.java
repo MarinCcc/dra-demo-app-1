@@ -14,6 +14,7 @@ import org.junit.runners.MethodSorters;
  *
  * @author George
  */
+/*
 @FixMethodOrder(MethodSorters.JVM)
 public class MongoDBConnectionTest extends TestCase{
        
@@ -33,6 +34,7 @@ public class MongoDBConnectionTest extends TestCase{
     /**
      * test if the connection is built with mongo db
      */
+/*
     @Test
     public void testConnection() {  
         System.out.println(" >> Testing Mongo DB connection instance: ");
@@ -42,6 +44,7 @@ public class MongoDBConnectionTest extends TestCase{
     /**
      * test if the URI is created and authorized using the clusters
      */
+/*
     @Test 
     public void testMongoClientURI(){  
         System.out.println(" >> Testing Mongo DB URI autorization: ");
@@ -51,6 +54,7 @@ public class MongoDBConnectionTest extends TestCase{
     /**
      * test if mongo db client is connect using the URI
      */
+/*
     @Test 
     public void testMongoClient(){      
         System.out.println(" >> Testing client access to Mongo DB: ");
@@ -60,6 +64,7 @@ public class MongoDBConnectionTest extends TestCase{
     /**
      * terminate the connection after the test
      */
+/*
     @After
     @Override
     public void tearDown() {
@@ -67,3 +72,4 @@ public class MongoDBConnectionTest extends TestCase{
         client.close();
     }
 }
+*/
